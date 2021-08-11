@@ -1,0 +1,145 @@
+@media(min-width:992px) and (max-width:1199px){
+    .navbar-light .navbar-brand {
+        color: rgba(0,0,0,.9);
+        width: 20%;
+    }
+}
+@media(min-width:769px) and (max-width:991px){
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+    .d-flex{
+        justify-content: center;
+    }
+
+    .rectangle-1 i {
+        top: -83%;
+        font-size: 32px;
+    }
+    .rectangle-1 h4 {
+        text-align: center;
+        font-size: 15px;
+    }
+    .rectangle-1 h2 {
+        text-align: center;
+        margin-top: 83px;
+    
+        font-size: 18px;
+    }
+    .approaches-1 p {
+        text-align: left;
+        font-size: 15px;
+    }
+    .approaches-1 h4 {
+        text-align: left;
+        margin-top: 0px;
+    }
+    .approaches-1 span {
+        height: 60px;
+        width: 60px;
+    }
+    .approaches-1 span h2 {
+
+        font-size: 18px;
+
+    }
+    .approaches-2 p {
+        text-align: right;
+        font-size: 15px;
+    }
+    .approaches-2 h4 {
+        text-align: right;
+        margin-top: 0px;
+    }
+    .approaches-2 span {
+        height: 60px;
+        width: 60px;
+    }
+    .approaches-2 span h2 {
+
+        font-size: 18px;
+
+    }
+    .about-us-heading h1 {
+        font-size: 36px;
+        color: #3e3e3e;
+    }
+    .about-us-heading h4 {
+        font-size: 16px;
+        color: #424242;
+        text-transform: uppercase;
+    }
+    
+}
+
+
+@media(min-width:0px) and (max-width:768px){
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+    .d-flex{
+        justify-content: center;
+    }
+    .approaches-2 span{
+        display: none;
+    }
+    .approaches-1 span{
+        display: none;
+    }
+    .approaches-1 h4{
+        margin: 0;
+        font-size: 20px;
+        margin-top: 5px;
+        padding-top: 5px;
+        text-align: center;
+        
+    }
+    .approaches-1 p{
+        font-size: 13px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .approaches-2 h4{
+        margin: 0;
+        font-size: 20px;
+        margin-top: 5px;
+        padding-top: 5px;
+        text-align: center;
+        
+    }
+    .approaches-2 p{
+        font-size: 13px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .steps-2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .rectangle-1 h4 {
+        margin-bottom: 100px;
+    }
+    .img-03 {
+        flex-direction: column-reverse;
+    }
+    .second-row {
+        padding-bottom: 0px;
+    }
+    .about-us-heading h1 {
+        font-size: 36px;
+        color: #3e3e3e;
+    }
+    .about-us-heading h4 {
+        font-size: 16px;
+        color: #424242;
+        text-transform: uppercase;
+    }
+
+}
+
+@media(min-width:0px) and (max-width:575px){
+    .navbar-light .navbar-brand {
+        color: rgba(0,0,0,.9);
+        width: 55%;
+    }
+}

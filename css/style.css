@@ -1,0 +1,593 @@
+/* font-family: 'Montserrat', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.d-flex{
+
+}
+.btn-outline-success{
+    color: #f8f8f8;
+    border-color: #de2b24;
+    background-color: #de2b24;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 7px 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    /* text-align: center; */
+    /* align-items: center; */
+    /* margin-left: 120px; */
+}
+.btn-outline-success:hover{
+    color: #de2b24;
+    background-color: white;
+    border-color: #de2b24;
+    border: 1px solid #de2b24;
+    transition: .5s all ease-in-out;
+    
+}
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 16px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+}
+.banner{
+    background-image: url(../images/banner-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.banner-text{
+
+}
+.banner-text h2{
+
+color: white;
+
+margin-top: 200px;
+}
+.banner-text h4{
+    
+color: white;
+    
+font-weight: 300;
+}
+
+.button{
+
+}
+.btn-banner{
+    margin: 0;
+    margin-top: 30px;
+    padding: 0;
+    color: white;
+    background: #f8cd53;
+    padding: 5px 20px;
+    font-weight: 500;
+}
+.btn-banner:hover{
+    color: #f8cd53;
+    background: transparent;
+    border: 1px solid;
+}
+.about-us-heading{
+
+}
+.about-us-heading h1{
+
+font-size: 40px;
+
+color: #3e3e3e;
+}
+.about-us-heading h4{
+    
+font-size: 20px;
+    
+color: #424242;
+text-transform: uppercase;
+}
+.about-us-heading span {
+    height: 5px;
+    width: 0px;
+    margin-top: 20px;
+    display: inline-block;
+    background: #3a3a3a;
+    align-items: center;
+    transition: .5s all ease-in-out;
+}
+.who-we-are:hover .about-us-heading span {
+    width: 60px;
+}
+.features {
+
+}
+
+.features h4{
+
+}
+.features p{
+    font-size: 17px;
+}
+.icon1{
+
+}
+.icon1 i{
+    font-size: 64px;
+
+    color: #688fca;
+    
+    margin-bottom: 15px;
+}
+.icon2{
+
+}
+.icon2 i{
+    font-size: 64px;
+
+    color: #de5940;
+    
+    margin-bottom: 15px;
+}
+.icon3{
+
+}
+.icon3 i{
+    font-size: 64px;
+
+    color: #f8cd53;
+    
+    margin-bottom: 15px;
+}
+.approaches{
+    background-color: whitesmoke;
+}
+.Our_approach:hover .about-us-heading span {
+    width: 60px;
+}
+.steps-1{
+    background-color: white;
+    position: relative;
+    box-shadow: -1px 0px 4px 0px;
+}
+.steps-2{
+    background-color: white;
+    position: relative;
+    box-shadow: -1px 0px 4px 0px;
+}
+
+.Our_approach{
+
+}
+.img-01{
+    padding: 0px;
+    position: relative;
+}
+/* .img-01::after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: red;
+    opacity: .3;
+    transition: .5s all ease-in-out;
+    
+
+}
+.img-01:hover::after{
+    width: 100%;
+} */
+.approaches{
+    
+}
+.approaches-1 span{
+    
+height: 100px;
+    
+width: 100px;
+    
+background-color: red;
+    
+display: inline-block;
+    
+position: absolute;
+    
+left: 30%;
+    
+top: 50%;
+    
+transform: translate(-10%,-50%);
+    
+border: 2px solid white;
+    
+border-radius: 5px;
+}
+.approaches-1 span h2{
+    color: white;
+    padding: px;
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 10px;
+}
+
+.approaches-1 h4{
+
+text-align: left;
+
+margin-top: 100px;
+}
+.approaches-1 p{
+
+text-align: left;
+
+font-size: 16px;
+}
+.img-1{
+    width: 100%;
+}
+.approaches-2 h4{
+
+    text-align: right;
+    
+    margin-top: 100px;
+    }
+.approaches-2 p{
+    
+    text-align: right;
+    
+    font-size: 16px;
+    }
+
+.approaches-2 span{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    display: inline-block;
+    position: absolute;
+    left: 63%;
+    top: 50%;
+    transform: translate(-5%,-50%);
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.approaches-2 span h2{
+    color: white;
+    padding: px;
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 10px;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.55);
+    border-color: rgba(0,0,0,.1);
+    font-size: 20px;
+}
+.works{
+    background-color: #de2b24;
+    min-height: 100vh;
+}
+.work-heading{
+
+}
+.work-heading h1{
+    color: white;
+}
+.work-heading h4{
+    color: white;
+}
+.work-heading span{
+    height: 5px;
+    width: 0px;
+    margin-top: 20px;
+    display: inline-block;
+    background: #ffffff;
+    align-items: center;
+    transition: .5s all ease-in-out;
+}
+.works:hover .work-heading span{
+    width: 60px;
+}
+.rectangle-1{
+    position: relative;
+}
+.rectangle-1 h2{
+
+
+text-align: center;
+
+margin-top: 150px;
+
+text-transform: capitalize;
+
+color: white;
+}
+.rectangle-1 h4{
+    
+    
+text-align: center;
+    
+color: white;
+}
+.rectangle-1 i{
+    position: absolute;
+    left: 50%;
+    top: -65%;
+    transform: translateX(-50%);
+    font-size: 40px;
+    color: white;
+}
+.r1{
+    padding: 0px;
+    background: #f35e59;
+    /* position: relative; */
+}
+.img-01{
+
+}
+
+footer{
+    background-color: rgb(41, 147, 233);
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
+.footerform{
+
+background: white;
+
+padding-top: 70px;
+
+padding-bottom: 70px;
+}
+.footerform h4{
+ text-align: center;
+ font-size: 20px;
+ font-weight: 300;
+ margin-bottom: 30px;
+}
+.form-control{
+
+padding: 20px;
+}
+.submit{
+    text-align: center;
+}
+.btn-primary{
+    background: red;
+    border: 1px solid red;
+    border-radius: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+.form-control:focus{
+    box-shadow: none;
+}
+.icon{
+    height: 50px;
+    display: inline-block;
+    width: 50px;
+    /* width: 50px; */
+    border: 4px solid white;
+    border-radius: 50px;
+    /* text-align: center; */
+    position: relative;
+    margin-top: 20px;
+}
+.icon i{
+    color: white;
+    position: absolute;
+    top: 31%;
+    left: 30%;
+    animation: updown .5s linear infinite;
+    animation-direction: alternate;
+    font-size: 20px;
+}
+@keyframes updown{
+    0%{
+        top: 26%;
+    }
+
+    100%{
+        top: 40%;
+    }
+}
+.foot{
+
+}
+.foot h1{
+    color: white;
+}
+.foot h4{
+    color: white;
+}
+.btn-primary:hover {
+    color: #f00;
+    background-color: #0b5ed700;
+    border-color: #f30000;
+}
+.get-in{
+
+}
+.get-in h2{
+
+color: white;
+
+font-size: 39px;
+}
+.get-in ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: center;
+
+margin: 0;
+
+padding: 0;
+
+margin-top: 20px;
+
+margin-bottom: 20px;
+}
+.get-in ul li{
+
+color: white;
+
+
+
+font-size: 30px;
+
+height: 50px;
+
+width: 50px;
+
+border: 2px solid grey;
+
+
+border-radius: 5px;
+
+margin: 10px;
+}
+.get-in ul li:hover{
+    border-color: red;
+}
+.get-in ul li i{
+    
+}
+.get-in h5{
+
+color: white;
+
+margin-top: 40px;
+
+margin-bottom: 30px;
+
+font-weight: 300;
+}
+.btn-subscribe{
+
+color: white;
+
+background: #c7252500;
+
+padding: top;
+
+padding: 0px;
+
+margin: 0px;
+
+padding: 6px 18px 6px;
+
+border: 2px solid grey;
+
+margin-top: 20px;
+}
+.btn-subscribe:hover{
+
+color: rgb(255, 255, 255);
+
+border-color: rgb(253, 0, 0);
+}
+.footer2{
+    background-color: #2a2a2a;
+    min-height: 80vh;
+}
+.copyright{
+    background-color: grey;
+}
+.copyright h4{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+.img-03{
+
+}
+.second-row{
+    
+padding-bottom: 50px;
+}
+
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-box-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .img-01{
+      position: relative;
+  }
+  .img-01::after{
+      content: '';
+      height: 100%;
+      width: 0%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-color: red;
+      opacity: .3;
+      transition: .5s all ease-in-out;
+  }
+  .img-01:hover::after{
+      width: 100%;
+  }
